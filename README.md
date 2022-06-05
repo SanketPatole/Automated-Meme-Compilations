@@ -42,7 +42,7 @@ pip install google
   
   https://developers.google.com/youtube/v3/guides/quota_and_compliance_audits
 
-* Once audit is completed, copy client_id and client_secrets for your YouTube API account and paste it into googleAPI.json file. Please refer following webpage for more details.
+* Once the audit is completed, copy client_id and client_secrets for your YouTube API account and paste it into googleAPI.json file. Please refer following webpage for more details.
   
   https://developers.google.com/youtube/registering_an_application
 
@@ -64,7 +64,7 @@ cd "Funniest_Meme_Compilations"
 python "token_generator.py"
 ```
 
-* Once the token is generated, run following command to generated compilation video and upload it automatically to YouTube.
+* Once the token is generated, run following command to generate compilation video and upload it automatically to YouTube.
 ```sh
 python "video_generator.py"
 ```
