@@ -8,8 +8,11 @@ The videos are 1 hour long in length and are set up for automated upload to YouT
 The entire code is purely written in Python.
 
 The utility checks all the relevent and funny short videos uploaded recently to YouTube.
+
 It then trims intro and outro from these videos and stitches them together.
+
 Later, intro and outro is added to the final combined video and is uploaded to YouTube.
+
 The videos are uploaded with, title, description, SEO tags and thumbnails.
 
 
@@ -31,7 +34,7 @@ pip install google
 
 ### YouTube API account
 
-* To automate video uploads to YouTube, you need to have YouTube API account setup beforehand. Please refer following webpage for more details.
+* To automate video uploads to YouTube, you need to have YouTube API account set up beforehand. Please refer following webpage for more details.
   https://developers.google.com/youtube/v3/getting-started
 
 * Once the api account is set up, you need to audit your application with YouTube. If your application is not audited by YouTube, you won't be able to make your videos public. Please refer following webpage for more details.
