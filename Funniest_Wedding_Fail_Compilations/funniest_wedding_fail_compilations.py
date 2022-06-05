@@ -127,7 +127,7 @@ os.system('ffmpeg -safe 0 -f concat -i inputs.txt -c copy -y ' + outputFile)
 os.system("rm tempfile.mp4")
 os.system("rm inputs.txt")
 
-TOKEN_NAME = "funniest_wedding_fail_compilations_token.json"	# Don't change
+TOKEN_NAME = "token.json"	# Don't change
 
 # Setup Google
 SCOPES = ["https://www.googleapis.com/auth/youtube.upload"]
